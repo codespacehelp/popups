@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Domain Books</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="grid">
+        <a class="book" href="the-great-gatsby.html" data-author="F. Scott Fitzgerald" data-title="The Great Gatsby"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/The_Great_Gatsby"><img
+                src="./assets/the-great-gatsby.jpg" alt="The Great Gatsby book cover"></a>
+
+        <a class="book" href="mrs-dalloway.html" data-author="Virginia Woolf" data-title="Mrs. Dalloway"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/Mrs_Dalloway"><img
+                src="./assets/mrs-dalloway.jpg" alt="Mrs. Dalloway book cover"></a>
+
+        <a class="book" href="the-secret-of-chimneys.html" data-author="Agatha Christie"
+            data-title="The Secret of Chimneys" data-published="1925"
+            data-link="https://en.wikipedia.org/wiki/The_Secret_of_Chimneys"><img
+                src="./assets/the-secret-of-chimneys.jpg" alt="The Secret of Chimneys book cover"></a>
+
+        <a class="book" href="arrowsmith.html" data-author="Sinclair Lewis" data-title="Arrowsmith"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/Arrowsmith_(novel)"><img
+                src="./assets/arrowsmith.jpg" alt="Arrowsmith book cover"></a>
+
+        <a class="book" href="those-barren-leaves.html" data-author="Aldous Huxley" data-title="Those Barren Leaves"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/Those_Barren_Leaves"><img
+                src="./assets/those-barren-leaves.jpg" alt="Those Barren Leaves book cover"></a>
+
+        <a class="book" href="an-american-tragedy.html" data-author="Theodore Dreiser" data-title="An American Tragedy"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/An_American_Tragedy"><img
+                src="./assets/an-american-tragedy.jpg" alt="An American Tragedy book cover"></a>
+
+        <a class="book" href="the-painted-veil.html" data-author="W. Somerset Maugham" data-title="The Painted Veil"
+            data-published="1925" data-link="https://en.wikipedia.org/wiki/The_Painted_Veil_(novel)"><img
+                src="./assets/the-painted-veil.jpg" alt="The Painted Veil book cover"></a>
+
+        <a class="book" href="a-daughter-of-the-samurai.html" data-author="Etsu Inagaki Sugimoto"
+            data-title="A Daughter of the Samurai" data-published="1925"
+            data-link="https://en.wikipedia.org/wiki/A_Daughter_of_the_Samurai"><img
+                src="./assets/a-daughter-of-the-samurai.jpg" alt="A Daughter of the Samurai book cover"></a>
+
+    </div>
+    <div class="popup-wrapper" style="display:none">
+        <div class="popup">
+            <h1 id="popup-title">Book Title goes here</h1>
+            <h2 id="popup-author">Author goes here</h2>
+            <img id="popup-book-image" src="./assets/a-daughter-of-the-samurai.jpg" alt="">
+            <p id="popup-published">Published in 1925</p>
+            <a id="popup-link" href="https://en.wikipedia.org/wiki/A_Daughter_of_the_Samurai">Read more</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
